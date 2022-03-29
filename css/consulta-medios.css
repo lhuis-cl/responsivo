@@ -1,0 +1,53 @@
+/*consulta de medios para movil */
+ @media screen and (min-width: 0px) and (max-width: 575px) {
+    .contenedor { 
+        max-width: 400px; 
+        margin: auto;
+    
+     }
+ 	.banner {  display: none }
+ }
+
+
+/*consulta de medios para tablet */
+ @media screen and (min-width: 576px) and (max-width: 768px) {
+    .contenedor { 
+        max-width: 700px; 
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+     .col-50 {
+	  width: 50%;
+      padding: 1%;
+	}
+
+ }
+
+ /*consulta de medios para desktop o dispositivos large */
+@media screen and (min-width:769px) {
+    .contenedor { 
+        max-width: 1200px; 
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     .col-50 {
+	  width: 50%;
+      padding: 1%;
+	}
+   
+	.col-33 {
+	  width: 31.33%;
+      padding: 1%;
+	}
+     .col-25 {
+	  width: 25%;
+      padding: 1%;
+	}
+	.banner { height: 300px; }
+     .pie { text-align: right}
+
+}

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* 
+Fondo cabecera  y fondo botones:#088bd3
+Vinculos , bordes y estado sobre de botones: #f9c82d;
+Color de fondo cabecera: #666666;
+Color de texto: #67686b;
+*/
+html * {
+	margin: 0;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	font-size: 16px;
+	color: #67686b;
+}
+
+p {
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 2em;
+	padding-bottom: 3%;
+	text-align: center;
+    width: 100%;
+}
+h2 {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	margin: 2% 0;
+}
+a {
+	color: #f9c82d;
+}
+
+.titulo, .subtitulo {
+	color: #656563;
+	border-bottom: 1px dashed #f9c82d;
+}
+.cabecera {
+	background-color:#088bd3;
+	padding-bottom: 2%;
+    text-align: center;
+}
+.navbar li {
+	list-style: none;
+	display: inline-block;
+	
+}
+.navbar a {
+	font-size: 1em;
+	margin: 0 1%;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+}
+
+
+.banner {
+	background-image: url(../img/bg-1.jpg);
+	background-size: cover;
+	height: 100px;
+	border-bottom: 5px solid #f9c82d;
+}
+
+
+
+.pie {
+	background: #666;
+	padding: 3%;
+	overflow: hidden;
+	border-top: 5px solid #f9c82d;
+    color: #fff;
+    text-align: center
+}
+
+/*padding comun para bloques*/
+.bloque { padding: 6% }
+
+
+
+
+
+.img-responsiva { 
+	width: 100%; 
+	height: auto; 
+	max-width:540px; 
+}
+
+/*limpiar flotante*/
+.limpiar { clear: both}
+
+/*selector de estilos ID*/
+#curriculum {
+    background-image: url(../img/bg-2.jpg);
+    color:#fff;
+    text-align: center;
+
+}
+
+/*aplicar transición en el boton*/
+.boton {
+   background-color: #088bd3;
+    color: #fff;
+    padding: 2%;
+    display: inline-block;
+    margin-top: 1%;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 2s;
+    
+}
+
+.boton:hover {
+     background-color: #f9c82d;
+     color: #000;
+
+}
+
+/* estilo selector id para rotar logotipo*/
+/*propiedades de transformacion
+rotate(grados)
+scale(numero)*/
+#logo:hover {
+ transform: rotate(360deg) scale(1.2);
+    
+}
+
+#logo { transition: 2s;}
+
+.zoom {
+  transition: 2s;
+}
+.zoom:hover {
+     transform:scale(2);
+}
+.mascara {
+  overflow:hidden;
+
+}
+
+
+
+
+
+.iframe-responsivo {
+    width: 100%; 
+	height: 300px;
+}
+
+/*limpiar simple*/
+.limpiar { clear: both}
+
+
+.lista li {
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	padding: 4% 0%;
+}
+
+/*:nth-child(odd) impar, even par o con numero*/
+.lista li { transition: 2s}
+.lista li:hover { background-color: darkgray !important}
+
+.lista li:nth-child(even){ background-color: beige}
+.lista li:nth-child(1){ border-top: 3px #f9c82d solid; margin-top: 2%} /*o first*/
+.lista li:last-child {
+ border-bottom: 3px  solid #088bd3;
+}
+
+
+
+
+
+
+
